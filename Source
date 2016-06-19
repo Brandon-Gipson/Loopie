@@ -15,15 +15,14 @@ void main()
 	double		dZ;
 	float		fX;
 	float		fY;
+	float		fZ;
 
 	dX = 1;
 	dY = 0;
-	for (dX = 1; dX <= 1000000000; dX++);
+	for (dX = 1; dX <= 5; dX++)
 	{
-		dZ = dY + (1 / dX);
-		cout.precision(7);
-		cout << "dZ is " << fX << endl;
-			
+		dZ = dX;
 	}
+		cout << "dZ is " << dZ << endl;
 
 }
