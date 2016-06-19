@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void main()
+int main()
 {
 	cout << "If nothing below this line, exit program." << endl;
 	double		dX;
@@ -21,8 +21,10 @@ void main()
 	dY = 0;
 	for (dX = 1; dX <= 5; dX++)
 	{
-		dZ = dX;
+		dZ += dX;
 	}
-		cout << "dZ is " << dZ << endl;
-
+	
+	cout << "dZ is " << dZ << endl;
+	
+	return 0;
 }
